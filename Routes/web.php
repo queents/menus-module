@@ -16,5 +16,6 @@ use Modules\Menu\Vilt\Resources\MenuResource;
 */
 
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
+    // Route::get('menus', [MenusPage::class, 'index'])->name('menus.index');
     Route::post('menus/update', [MenusPage::class, 'move'])->name('menus.move');
 });

@@ -8,7 +8,6 @@ use Illuminate\Support\Facades\File;
 use Modules\Base\Services\Core\VILT;
 use Modules\Base\Services\Resource\Page;
 use Modules\Base\Services\Components\Base\Render;
-use Modules\Base\Services\Components\Base\Component;
 
 class MenusPage extends Page
 {

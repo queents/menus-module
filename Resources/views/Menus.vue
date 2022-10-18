@@ -129,10 +129,6 @@ export default {
         Header,
         draggable: VueDraggableNext
     },
-    mounted() {
-        const data = import.meta.glob('../*.json')
-        console.log(data);
-    },
     methods: {
         setMenu(item, key) {
             this.selectedMenuName = key;

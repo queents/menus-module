@@ -1,0 +1,21 @@
+{
+    "name": "Menu",
+    "alias": "menu",
+    "description": "VILT Menu manager and generator for Database",
+    "keywords": [
+        "laravel",
+        "menus",
+        "menu GUI",
+        "menu generator",
+        "ui",
+        "vilt-admin",
+        "Vilt stack"
+    ],
+    "priority": 500,
+    "providers": [
+        "Modules\\Menu\\Providers\\MenuServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

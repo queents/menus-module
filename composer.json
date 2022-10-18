@@ -1,0 +1,39 @@
+{
+    "name": "queents/menu-module",
+    "description": "VILT Menu manager and generator for Database",
+    "keywords": [
+        "laravel",
+        "menus",
+        "menu GUI",
+        "menu generator",
+        "ui",
+        "vilt-admin",
+        "Vilt stack"
+    ],
+    "type": "laravel-module",
+    "homepage": "https://www.queentechsolutions.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "info@3x1.io",
+            "role": "Senior Fullstack developer"
+        }
+    ],
+    "require": {
+        "queents/vilt": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Menu\\": ""
+        }
+    }
+}
